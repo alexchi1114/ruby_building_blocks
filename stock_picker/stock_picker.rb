@@ -1,8 +1,4 @@
 def stock_picker(array)
-	stocks={}
-	for i in 0...array.length
-		stocks[array[i]]=i
-	end
 	best=array.min-array.max
 	best_hash={}
 	i=0

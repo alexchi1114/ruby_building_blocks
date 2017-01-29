@@ -1,5 +1,5 @@
 def stock_picker(array)
-	best=array.min-array.max
+	best=array.min-array.max-1
 	best_hash={}
 	i=0
 	while i<array.length
@@ -22,6 +22,6 @@ def stock_picker(array)
 	return best_hash
 end
 
-test=[1,4,8,10,34,0,2]
+test=[3,3,3,3]
 
 puts stock_picker(test)
